@@ -33,7 +33,7 @@ function LoadingScreen() {
       }}
     >
       <motion.img
-        src="/logo.png"
+        src="logo.png"
         alt="Flora Interiors"
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

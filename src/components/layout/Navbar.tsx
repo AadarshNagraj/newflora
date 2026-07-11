@@ -59,7 +59,7 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
               border: '1px solid rgba(184, 137, 42, 0.15)',
             }}>
               <img
-                src="/logo.png"
+                src="logo.png"
                 alt="Flora Interiors"
                 style={{ height: scrolled ? '52px' : '64px', transition: 'height 0.3s ease', objectFit: 'contain', display: 'block' }}
               />
@@ -176,7 +176,7 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
             >
               {/* Header */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '48px' }}>
-                <img src="/logo.png" alt={SITE_CONFIG.business.name} style={{ height: '44px', borderRadius: '8px' }} />
+                <img src="logo.png" alt={SITE_CONFIG.business.name} style={{ height: '44px', borderRadius: '8px' }} />
                 <button
                   onClick={() => setMobileOpen(false)}
                   style={{ background: 'none', border: 'none', color: 'var(--color-text)', display: 'flex' }}
