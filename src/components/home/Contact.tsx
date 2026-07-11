@@ -6,7 +6,7 @@ import { SITE_CONFIG } from '../../data/config';
 const Contact = () => {
   const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle');
   const [formData, setFormData] = useState({
-    name: '', phone: '', email: '', service: '', message: '',
+    name: '', phone: '', city: '', service: '', message: '',
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -133,7 +133,7 @@ const Contact = () => {
             {/* Map Embed */}
             <div style={{ borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--color-border)', height: '260px' }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233567.84660218637!2d77.27474994999999!3d23.25972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                src={SITE_CONFIG.business.googleMapsEmbed}
                 width="100%"
                 height="260"
                 style={{ border: 0, display: 'block' }}
@@ -208,11 +208,12 @@ const Contact = () => {
                     onChange={handleChange}
                   />
                   <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
+                    type="text"
+                    name="city"
+                    placeholder="City"
+                    required
                     className="form-control"
-                    value={formData.email}
+                    value={formData.city}
                     onChange={handleChange}
                   />
                 </div>

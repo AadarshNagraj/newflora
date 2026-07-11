@@ -37,6 +37,11 @@ const Hero = () => {
         }}
       />
 
+      {/* Top Right Logo Overlay */}
+      <div style={{ position: 'absolute', top: '40px', right: '40px', zIndex: 10 }}>
+        <img src="/logo.png" alt="Flora Interiors Logo" style={{ height: '80px', objectFit: 'contain' }} />
+      </div>
+
       {/* Gradient overlays */}
       <div style={{
         position: 'absolute', inset: 0, zIndex: 1,
@@ -114,11 +119,11 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}
           >
-            <a href="#portfolio" className="btn btn-primary" style={{ padding: '16px 36px', fontSize: '16px' }}>
-              View Portfolio
+            <a href="#contact" className="btn btn-primary" style={{ padding: '16px 36px', fontSize: '16px' }}>
+              Book a Free Consultation
             </a>
-            <a href="#contact" className="btn btn-outline-white" style={{ padding: '16px 36px', fontSize: '16px' }}>
-              Contact Us
+            <a href={`tel:${SITE_CONFIG.business.phone.replace(/[^0-9+]/g, '')}`} className="btn btn-outline-white" style={{ padding: '16px 36px', fontSize: '16px' }}>
+              Call {SITE_CONFIG.business.phone}
             </a>
           </motion.div>
         </div>

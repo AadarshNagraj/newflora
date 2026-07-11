@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { Sparkles, Shield, Users, Clock } from 'lucide-react';
+import { Sparkles, Shield, Users, Clock, Settings } from 'lucide-react';
 import { SITE_CONFIG } from '../../data/config';
 
 const iconMap: Record<string, React.ElementType> = {
-  Sparkles, Shield, Users, Clock,
+  Sparkles, Shield, Users, Clock, Settings
 };
 
 const WhyChooseUs = () => {

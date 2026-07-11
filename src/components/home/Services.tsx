@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { Home, Utensils, BedDouble, Sofa, Briefcase, Wrench } from 'lucide-react';
+import { Home, Utensils, BedDouble, Sofa, Briefcase, Wrench, Lightbulb, Archive, Smile, Sparkles } from 'lucide-react';
 import { SITE_CONFIG } from '../../data/config';
 
 const iconMap: Record<string, React.ElementType> = {
-  Home, Utensils, BedDouble, Sofa, Briefcase, Wrench,
+  Home, Utensils, BedDouble, Sofa, Briefcase, Wrench, Lightbulb, Archive, Smile, Sparkles
 };
 
 const Services = () => {

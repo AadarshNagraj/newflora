@@ -86,6 +86,23 @@ const FloatingButtons = () => {
           </motion.button>
         )}
       </AnimatePresence>
+      {/* Mobile 'Get Free Quote' Sticky Bottom Bar */}
+      <div className="mobile-quote-btn hide-desktop" style={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: 'var(--color-bg)',
+        padding: '12px 20px',
+        borderTop: '1px solid var(--color-border)',
+        zIndex: 890,
+        display: 'flex',
+        justifyContent: 'center'
+      }}>
+        <a href="#contact" className="btn btn-primary" style={{ width: '100%', padding: '14px', fontSize: '15px' }}>
+          Get Free Quote
+        </a>
+      </div>
     </div>
   );
 };

@@ -8,11 +8,11 @@ const About = () => {
 
   const highlights = [
     'Residential & Commercial Interiors',
-    'Modular Kitchen & Wardrobes',
-    'Bedroom & Living Room Design',
-    'Space Planning & Renovation',
-    'End-to-End Project Execution',
-    'Timely Delivery & Transparent Pricing',
+    'Modular Kitchens & Wardrobes',
+    'False Ceilings & Cove Lighting',
+    'Kids Room & Pooja Unit Design',
+    'Living Room Makeovers',
+    'Turnkey Project Execution',
   ];
 
   const badges = [

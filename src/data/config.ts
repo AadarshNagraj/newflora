@@ -5,13 +5,13 @@
 export const SITE_CONFIG = {
   business: {
     name: 'Flora Interiors',
-    tagline: 'Transforming Spaces Into Beautiful Experiences',
-    subtagline: 'Inspired Spaces. Blessed Living.',
+    tagline: 'Inspired Spaces. Blessed Living.',
+    subtagline: 'Warm, elegant, spiritually-tinged luxury',
     description:
-      'Flora Interiors is a premium interior design studio based in Bhopal, crafting residential and commercial spaces that blend modern aesthetics with timeless warmth. We transform your vision into a sanctuary you are proud to call home.',
+      'Flora Interiors is a premium interior design studio based in Bhopal, crafting residential and commercial spaces that blend Indian aesthetics with a modern premium finish. We turn houses into inspired, blessed living spaces.',
     shortDescription:
-      'Premium interior design studio turning spaces into stunning, personalised experiences.',
-    address: 'Bhopal, Madhya Pradesh',
+      'Premium interior design studio turning spaces into stunning, personalized experiences.',
+    address: 'Arera Colony, Bhopal, Madhya Pradesh',
     phone: '+91 75660 49924',
     email: 'florainteriors@gmail.com',
     whatsapp: '917566049924',
@@ -24,7 +24,7 @@ export const SITE_CONFIG = {
     designExperts: 8,
     serviceAreas: ['Bhopal', 'Arera Colony', 'MP Nagar', 'Kolar Road', 'Hoshangabad Road'],
     googleMapsEmbed:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.2!2d77.4!3d23.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDEyJzAwLjAiTiA3N8KwMjQnMDAuMCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.4851214041775!2d77.43391741541094!3d23.21852038485292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42f0269f8d19%3A0x464c8d5cbbbd2367!2sArera%20Colony%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin',
   },
 
   socials: {
@@ -37,7 +37,7 @@ export const SITE_CONFIG = {
   services: [
     {
       id: 'home-interior',
-      name: 'Home Interior',
+      name: 'Home Interiors',
       icon: 'Home',
       shortDesc: 'Complete home transformations tailored to your lifestyle and personality.',
       desc: 'We design complete home interiors — from living rooms to bedrooms — with a deep focus on your lifestyle, preferences, and space optimization.',
@@ -50,39 +50,53 @@ export const SITE_CONFIG = {
       desc: 'Our modular kitchens are designed for efficiency and elegance — with premium fittings, organized storage, and a layout that suits how you cook.',
     },
     {
-      id: 'bedroom-design',
-      name: 'Bedroom Design',
-      icon: 'BedDouble',
-      shortDesc: 'Serene personal sanctuaries crafted for rest and comfort.',
-      desc: 'We create tranquil bedroom environments — balancing aesthetics with functionality through thoughtful lighting, storage, and material choices.',
+      id: 'false-ceiling',
+      name: 'False Ceiling & Lighting',
+      icon: 'Lightbulb',
+      shortDesc: 'Stunning ceiling designs including cove lighting and ambient setups.',
+      desc: 'Elevate your spaces with beautifully crafted false ceilings, complete with cove lighting and perfectly positioned fixtures for a warm glow.',
     },
     {
-      id: 'living-room',
-      name: 'Living Room Design',
+      id: 'wardrobes',
+      name: 'Wardrobes & Storage',
+      icon: 'Archive',
+      shortDesc: 'Custom wardrobes designed for elegance and maximum utility.',
+      desc: 'Seamless, premium wardrobes and storage solutions designed to fit perfectly into your space while keeping it clutter-free.',
+    },
+    {
+      id: 'kids-room',
+      name: "Kids' Room Design",
+      icon: 'Smile',
+      shortDesc: 'Playful, safe, and creative spaces for children.',
+      desc: 'We design magical, thematic rooms for kids that inspire creativity while ensuring safety, comfort, and practical storage.',
+    },
+    {
+      id: 'living-dining',
+      name: 'Living/Dining Design',
       icon: 'Sofa',
-      shortDesc: 'Welcoming, elegant spaces for relaxation and entertainment.',
-      desc: 'Your living room is the heart of your home. We craft inviting, sophisticated spaces with harmonious colour palettes, statement furniture, and ambient lighting.',
+      shortDesc: 'Makeovers and wall paneling for your gathering spaces.',
+      desc: 'From statement accent walls to fluted panels and comfortable seating, we make your living and dining areas the heart of your home.',
     },
     {
-      id: 'office-interior',
-      name: 'Office Interior',
+      id: 'pooja-unit',
+      name: 'Pooja Unit Design',
+      icon: 'Sparkles',
+      shortDesc: 'Spiritual, Om-themed units rooted in Indian aesthetics.',
+      desc: 'Beautifully crafted, spiritually-tinged pooja units that bring blessings and peace to your home with a modern premium finish.',
+    },
+    {
+      id: 'commercial',
+      name: 'Commercial Spaces',
       icon: 'Briefcase',
-      shortDesc: 'Inspiring commercial workspaces that boost productivity.',
-      desc: 'We design professional office environments that reflect your brand identity, support team productivity, and impress your clients.',
-    },
-    {
-      id: 'renovation',
-      name: 'Renovation',
-      icon: 'Wrench',
-      shortDesc: 'Breathing new life into existing spaces with thoughtful redesign.',
-      desc: 'Whether a complete overhaul or selective updates, our renovation services transform tired spaces into fresh, functional, and beautiful environments.',
-    },
+      shortDesc: 'Restaurants, hospitals, and offices designed for impact.',
+      desc: 'Turnkey interior solutions for commercial spaces, ensuring functional layouts, brand alignment, and a welcoming atmosphere for clients.',
+    }
   ],
 
   whyChooseUs: [
     {
       icon: 'Sparkles',
-      title: 'Custom Designs',
+      title: 'Personalized Design',
       desc: 'Every project is bespoke. We craft unique designs tailored specifically to your lifestyle, preferences, and space.',
     },
     {
@@ -91,35 +105,35 @@ export const SITE_CONFIG = {
       desc: 'We use only premium, durable materials sourced from trusted suppliers — ensuring lasting beauty and performance.',
     },
     {
-      icon: 'Users',
-      title: 'Experienced Team',
-      desc: 'Our team of expert designers brings 5+ years of experience across residential, commercial, and hospitality projects.',
+      icon: 'Settings',
+      title: 'Turnkey Execution',
+      desc: 'From concept to handover, we manage the entire process seamlessly so you can enjoy a stress-free experience.',
     },
     {
       icon: 'Clock',
-      title: 'Timely Delivery',
+      title: 'On-Time Delivery',
       desc: 'We commit to clear timelines and maintain transparent communication throughout every stage of your project.',
     },
   ],
 
   testimonials: [
     {
-      name: 'Priya Sharma',
+      name: 'Client Name 1',
       location: 'Arera Colony, Bhopal',
       rating: 5,
-      text: 'Flora Interiors completely transformed our 3BHK apartment. The team understood our vision perfectly and delivered beyond our expectations. The modular kitchen and master bedroom are absolutely stunning!',
+      text: '[Placeholder] Flora Interiors completely transformed our 3BHK apartment. The team understood our vision perfectly and delivered beyond our expectations. The modular kitchen and master bedroom are absolutely stunning!',
     },
     {
-      name: 'Rajesh Gupta',
+      name: 'Client Name 2',
       location: 'MP Nagar, Bhopal',
       rating: 5,
-      text: 'Exceptional work and professional team. They designed our office space beautifully — modern, functional, and impressive. Our clients always compliment the interiors. Highly recommended!',
+      text: '[Placeholder] Exceptional work and professional team. They designed our office space beautifully — modern, functional, and impressive. Our clients always compliment the interiors. Highly recommended!',
     },
     {
-      name: 'Ankita Verma',
+      name: 'Client Name 3',
       location: 'Kolar Road, Bhopal',
       rating: 5,
-      text: 'The attention to detail is remarkable. From the living room to the kids\' bedroom, every corner of our home feels curated and warm. Flora Interiors truly delivered inspired spaces!',
+      text: '[Placeholder] The attention to detail is remarkable. From the living room to the kids\' bedroom, every corner of our home feels curated and warm. Flora Interiors truly delivered inspired spaces!',
     },
   ],
 
