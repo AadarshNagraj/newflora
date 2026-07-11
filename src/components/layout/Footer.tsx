@@ -48,7 +48,7 @@ const Footer = () => {
               overflow: 'hidden',
             }}>
               <img
-                src="/logo.png"
+                src="logo.png"
                 alt={SITE_CONFIG.business.name}
                 style={{ height: '76px', display: 'block', objectFit: 'contain' }}
               />

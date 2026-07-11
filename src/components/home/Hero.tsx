@@ -39,7 +39,7 @@ const Hero = () => {
 
       {/* Top Right Logo Overlay */}
       <div style={{ position: 'absolute', top: '40px', right: '40px', zIndex: 10 }}>
-        <img src="/logo.png" alt="Flora Interiors Logo" style={{ height: '80px', objectFit: 'contain' }} />
+        <img src="logo.png" alt="Flora Interiors Logo" style={{ height: '80px', objectFit: 'contain' }} />
       </div>
 
       {/* Gradient overlays */}
